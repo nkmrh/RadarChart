@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name          = "RadarChart"
   s.version       = "1.0.0"
-  s.summary       = "Lightweight and simple radar chart"
+  s.summary       = "A lightweight and simple to use radar chart."
   s.homepage      = "https://github.com/nkmrh/RadarChart"
   s.license       = { :type => "MIT", :file => "LICENSE" }
   s.author        = { "Hajime Nakamura" => "nkmrhj@gmail.com" }
