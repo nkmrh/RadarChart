@@ -6,6 +6,7 @@ A lightweight and simple to use radar chart.
 ![](https://img.shields.io/badge/language-swift%204.2-green.svg)
 ![](https://img.shields.io/badge/pod-v1.0.0-blue.svg)
 ![](https://img.shields.io/badge/license-MIT-lightgrey.svg)
+![](https://app.bitrise.io/app/d9565b31512dd4f8/status.svg?token=3FQuPkUBYdGoml46IDhTnQ)
 
 ## Customization
 
