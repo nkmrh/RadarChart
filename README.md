@@ -1,13 +1,13 @@
-<h1><b><font face="Helvetica Neue" color="#475d8c">RadarChart</font></b></h1>
-
-A lightweight and simple to use radar chart.
-
-<p>
-    <img src="https://img.shields.io/badge/platform-iOS%2009%2B-blue.svg"/>
+<p align="center">
+	<img src="images/radar_chart.png">
+	<br><br>
+    <img src="https://img.shields.io/badge/platform-iOS%209%2B-blue.svg"/>
     <img src="https://img.shields.io/badge/language-swift%204.2-green.svg" />
     <img src="https://img.shields.io/badge/pod-v1.0.0-blue.svg" />
     <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" />
 </p>
+
+A lightweight and simple to use radar chart.
 
 ## Customization
 
@@ -48,7 +48,7 @@ pod 'RadarChart`
 
 ## How to use
 
-If you want to draw a chart like the image below, please write as follows.
+If you want to draw a chart like the image below, please write as follows.
 
 ![](images/demo.png)
 
