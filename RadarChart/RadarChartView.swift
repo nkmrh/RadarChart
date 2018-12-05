@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class RadarChartView: UIView {
+open class RadarChartView: UIView {
 
     private var plotLayer: CAShapeLayer?
     private var xAxisLayers: [CAShapeLayer] = []
@@ -173,7 +173,7 @@ class RadarChartView: UIView {
         self.plotLayer = plotLayer
     }
 
-    override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         drawChart()
     }

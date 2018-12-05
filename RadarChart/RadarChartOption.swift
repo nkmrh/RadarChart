@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct RadarChartOption {
+public struct RadarChartOption {
     let shouldPlot: Bool = true
     let animated: Bool = true
     let duration: Double = 1.0

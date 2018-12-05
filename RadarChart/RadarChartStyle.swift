@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-struct RadarChartStyle {
+public struct RadarChartStyle {
 
     let color: UIColor
     let backgroundColor: UIColor
