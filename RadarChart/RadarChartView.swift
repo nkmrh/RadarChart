@@ -16,19 +16,19 @@ open class RadarChartView: UIView {
     private var labels: [UILabel] = []
     private var isPlotAnimationStarted = false
 
-    var data: [Int] = []
+    public var data: [Int] = []
 
-    var labelTexts: [String] = []
+    public var labelTexts: [String] = []
 
-    var numberOfVertexes: Int = 0
+    public var numberOfVertexes: Int = 0
 
-    var numberTicks: Int = 0
+    public var numberTicks: Int = 0
 
-    var style: RadarChartStyle?
+    public var style: RadarChartStyle?
 
-    var option: RadarChartOption?
+    public var option: RadarChartOption?
 
-    func prepareForDrawChart() {
+    public func prepareForDrawChart() {
         setupLayersAndLabels()
         isPlotAnimationStarted = false
     }

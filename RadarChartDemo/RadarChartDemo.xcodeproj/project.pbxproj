@@ -12,9 +12,11 @@
 		64F69AB521B0F85B001AA560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F69AB321B0F85B001AA560 /* Main.storyboard */; };
 		64F69AB721B0F85D001AA560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F69AB621B0F85D001AA560 /* Assets.xcassets */; };
 		64F69ABA21B0F85D001AA560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F69AB821B0F85D001AA560 /* LaunchScreen.storyboard */; };
+		670F29DC79939954155C10DB /* Pods_RadarChartDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10BEC1E29C8E4B017E4263 /* Pods_RadarChartDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E153CEE47F6DFCE13FA98E2 /* Pods-RadarChartDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadarChartDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadarChartDemo/Pods-RadarChartDemo.release.xcconfig"; sourceTree = "<group>"; };
 		64F69AAC21B0F85B001AA560 /* RadarChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadarChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F69AAF21B0F85B001AA560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F69AB121B0F85B001AA560 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		64F69AB621B0F85D001AA560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64F69AB921B0F85D001AA560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64F69ABB21B0F85D001AA560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84073719A93441A05EB7CB76 /* Pods-RadarChartDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadarChartDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadarChartDemo/Pods-RadarChartDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CF10BEC1E29C8E4B017E4263 /* Pods_RadarChartDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadarChartDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				670F29DC79939954155C10DB /* Pods_RadarChartDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		167FEF5F5C4DB663823F2849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF10BEC1E29C8E4B017E4263 /* Pods_RadarChartDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		64F69AA321B0F85B001AA560 = {
 			isa = PBXGroup;
 			children = (
 				64F69AAE21B0F85B001AA560 /* RadarChartDemo */,
 				64F69AAD21B0F85B001AA560 /* Products */,
+				BB3E9C1A771C8B031B7D0447 /* Pods */,
+				167FEF5F5C4DB663823F2849 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = RadarChartDemo;
 			sourceTree = "<group>";
 		};
+		BB3E9C1A771C8B031B7D0447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84073719A93441A05EB7CB76 /* Pods-RadarChartDemo.debug.xcconfig */,
+				3E153CEE47F6DFCE13FA98E2 /* Pods-RadarChartDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F69ABE21B0F85D001AA560 /* Build configuration list for PBXNativeTarget "RadarChartDemo" */;
 			buildPhases = (
+				2DA87875C286B538ABAFFDF3 /* [CP] Check Pods Manifest.lock */,
 				64F69AA821B0F85B001AA560 /* Sources */,
 				64F69AA921B0F85B001AA560 /* Frameworks */,
 				64F69AAA21B0F85B001AA560 /* Resources */,
+				FF91B5772A66B10B099D3631 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +154,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DA87875C286B538ABAFFDF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadarChartDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF91B5772A66B10B099D3631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RadarChartDemo/Pods-RadarChartDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RadarChart/RadarChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RadarChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadarChartDemo/Pods-RadarChartDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64F69AA821B0F85B001AA560 /* Sources */ = {
@@ -279,16 +344,14 @@
 		};
 		64F69ABF21B0F85D001AA560 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84073719A93441A05EB7CB76 /* Pods-RadarChartDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QA8AV789YN;
 				INFOPLIST_FILE = RadarChartDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nkmrh.RadarChartDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -298,16 +361,14 @@
 		};
 		64F69AC021B0F85D001AA560 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E153CEE47F6DFCE13FA98E2 /* Pods-RadarChartDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QA8AV789YN;
 				INFOPLIST_FILE = RadarChartDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nkmrh.RadarChartDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
