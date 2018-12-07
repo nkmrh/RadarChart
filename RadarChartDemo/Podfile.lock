@@ -2,15 +2,15 @@ PODS:
   - RadarChart (1.0.0)
 
 DEPENDENCIES:
-  - RadarChart (from `../`)
+  - RadarChart
 
-EXTERNAL SOURCES:
-  RadarChart:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RadarChart
 
 SPEC CHECKSUMS:
-  RadarChart: 398df41e458290ae7a38d7d76ac2e93f946df879
+  RadarChart: 518cd39f05e08672747934f27269b96a69444286
 
-PODFILE CHECKSUM: 2ac21b9781630a258d1c910ea876b834fe9cb0d2
+PODFILE CHECKSUM: ee92282401440e42aee637915d6ec417f6b97001
 
 COCOAPODS: 1.5.3
